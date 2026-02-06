@@ -1,0 +1,9 @@
+{
+  "id": "serper",
+  "kind": "extension",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
