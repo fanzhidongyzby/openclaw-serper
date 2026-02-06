@@ -1,0 +1,15 @@
+{
+  "id": "serper",
+  "channels": [],
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "Serper API key (also supports SERPER_API_KEY env var)"
+      }
+    }
+  }
+}

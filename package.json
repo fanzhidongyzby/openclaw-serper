@@ -1,0 +1,39 @@
+{
+  "name": "serper",
+  "version": "1.0.0",
+  "description": "Google Serper plugin for OpenClaw.",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "skills",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanzhidongyzby/openclaw-serper.git"
+  },
+  "keywords": [
+    "openclaw",
+    "search",
+    "scholar",
+    "google",
+    "serper",
+    "web-search",
+    "ai",
+    "plugin"
+  ],
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "openclaw": ">=2026.1.0"
+  }
+}
