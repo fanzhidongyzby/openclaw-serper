@@ -1,6 +1,6 @@
 ---
 name: serper-search
-description: 使用 Google Serper Search API 进行高效的网络搜索，获取最新信息、验证事实、研究主题。
+description: 使用 Google Serper Search API 进行网络搜索。当用户说"搜索"、"搜一下"、"查找"、"研究"、"调研"、"了解"、"查询"、"检索"时使用。
 ---
 
 # Google Serper Search Tool
@@ -12,7 +12,7 @@ description: 使用 Google Serper Search API 进行高效的网络搜索，获�
 当用户提到以下内容时自动激活：
 
 ### 搜索类关键词
-- "搜索"、"查找"、"找一下"
+- "搜索"、"搜一下"、"搜搜"、"查找"、"找一下"
 - "研究"、"调研"、"了解"
 - "查询"、"检索"
 - "看看"、"查查"
@@ -25,6 +25,7 @@ description: 使用 Google Serper Search API 进行高效的网络搜索，获�
 - 需要比较不同产品或方案
 
 ### 示例问题
+- "搜一下最新的 AI 发展趋势"
 - "帮我搜索最新的 AI 发展趋势"
 - "查找一下 Python 3.13 的新特性"
 - "研究一下自动驾驶技术的现状"
@@ -255,7 +256,7 @@ serper_search({
 
 ### 环境变量配置（推荐）
 
-编辑 `~/.openclaw/gateway.env`：
+编辑 `~/.openclaw/.env`：
 
 ```bash
 SERPER_API_KEY=your-api-key-here
@@ -282,6 +283,10 @@ SERPER_API_KEY=your-api-key-here
   - 支持 Google Serper API
   - 提供中文、英文多语言搜索
   - 集成 OpenClaw Skill 系统
+
+- **v1.1** (2026-02-11)：优化 description，添加触发关键词
+  - 更新 description 包含触发关键词
+  - 优化 skill 激活机制
 
 ## Future Plans
 

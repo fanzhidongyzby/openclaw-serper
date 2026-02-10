@@ -1,6 +1,12 @@
 {
   "id": "serper",
+  "name": "Serper",
+  "description": "Google Serper API plugin for OpenClaw (Web + Scholar search)",
   "kind": "extension",
+  "skills": [
+    "skills/serper-search",
+    "skills/serper-scholar"
+  ],
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
